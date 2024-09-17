@@ -22,7 +22,7 @@ android {
 
     namespace "com.qrcode"
     defaultConfig {
-        applicationId "com.fusionsoftware.cuteareacode"
+        applicationId "com.fusionsoftware.cutearecode"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
