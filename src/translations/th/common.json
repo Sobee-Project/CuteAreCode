@@ -39,5 +39,10 @@
   "qr_helper": "เล็งกล้องไปที่ QR Code,\nมันจะถูกสแกนโดยอัตโนมัติ.\nหรือคุณสามารถเลือก QR Code จากห้องสมุด",
   "or": "หรือ",
   "pick_qr_code_from_library": "เลือก QR Code จากห้องสมุด",
-  "error_correction_level": "ระดับการแก้ไขข้อผิดพลาด"
+  "error_correction_level": "ระดับการแก้ไขข้อผิดพลาด",
+  "retry": "ลองใหม่",
+  "ec_low": "ต่ำ",
+  "ec_medium": "ปานกลาง",
+  "ec_quartile": "ควอร์ไทล",
+  "ec_high": "สูง"
 }

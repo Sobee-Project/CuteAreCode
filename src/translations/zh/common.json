@@ -39,5 +39,10 @@
   "qr_helper": "将相机对准二维码，\n将自动扫描。\n或者您可以从库中选择二维码。",
   "or": "或者",
   "pick_qr_code_from_library": "从库中选择二维码",
-  "error_correction_level": "错误校正级别"
+  "error_correction_level": "错误校正级别",
+  "retry": "重试",
+  "ec_low": "低",
+  "ec_medium": "中",
+  "ec_quartile": "四分位",
+  "ec_high": "高"
 }

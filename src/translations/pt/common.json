@@ -39,5 +39,10 @@
   "qr_helper": "Aponte sua câmera para o QR code,\nele será escaneado automaticamente.\nOu você pode escolher o QR code da biblioteca.",
   "or": "ou",
   "pick_qr_code_from_library": "Escolher QR code da biblioteca",
-  "error_correction_level": "Nível de correção de erro"
+  "error_correction_level": "Nível de correção de erro",
+  "retry": "Tentar Novamente",
+  "ec_low": "Baixo",
+  "ec_medium": "Médio",
+  "ec_quartile": "Quartil",
+  "ec_high": "Alto"
 }

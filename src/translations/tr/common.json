@@ -39,5 +39,10 @@
   "qr_helper": "Kameranızı QR koduna doğru tutun,\nautomatik olarak taranacaktır.\nYa da kütüphaneden QR kodu seçebilirsiniz.",
   "or": "veya",
   "pick_qr_code_from_library": "Kütüphaneden QR kodu seç",
-  "error_correction_level": "Hata Düzeltme Seviyesi"
+  "error_correction_level": "Hata Düzeltme Seviyesi",
+  "retry": "Yeniden Dene",
+  "ec_low": "Düşük",
+  "ec_medium": "Orta",
+  "ec_quartile": "Dörtte Bir",
+  "ec_high": "Yüksek"
 }

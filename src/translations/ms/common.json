@@ -39,5 +39,10 @@
   "qr_helper": "Arahkan kamera anda ke QR code,\nIa akan diimbas secara automatik.\nAtau anda boleh memilih QR code dari perpustakaan.",
   "or": "atau",
   "pick_qr_code_from_library": "Pilih QR code dari perpustakaan",
-  "error_correction_level": "Tahap Koreksi Ralat"
+  "error_correction_level": "Tahap Koreksi Ralat",
+  "retry": "Cuba Lagi",
+  "ec_low": "Rendah",
+  "ec_medium": "Sederhana",
+  "ec_quartile": "Kuartil",
+  "ec_high": "Tinggi"
 }

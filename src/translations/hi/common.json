@@ -39,5 +39,10 @@
   "qr_helper": "QR कोड पर अपने कैमरे को ले जाएं,\nयह स्वचालित रूप से स्कैन होगा।\nया आप पुस्तकालय से QR कोड चुन सकते हैं।",
   "or": "या",
   "pick_qr_code_from_library": "पुस्तकालय से QR कोड चुनें",
-  "error_correction_level": "त्रुटि सुधार स्तर"
+  "error_correction_level": "त्रुटि सुधार स्तर",
+  "retry": "पुनः प्रयास करें",
+  "ec_low": "कम",
+  "ec_medium": "मध्यम",
+  "ec_quartile": "क्वार्टाइल",
+  "ec_high": "उच्च"
 }

@@ -39,5 +39,10 @@
   "qr_helper": "Apunta tu cámara hacia el código QR, se escaneará automáticamente. O puedes seleccionar un código QR desde la biblioteca.",
   "or": "o",
   "pick_qr_code_from_library": "Seleccionar código QR de la biblioteca",
-  "error_correction_level": "Nivel de corrección de error"
+  "error_correction_level": "Nivel de corrección de error",
+  "retry": "Reintentar",
+  "ec_low": "Bajo",
+  "ec_medium": "Medio",
+  "ec_quartile": "Cuartil",
+  "ec_high": "Alto"
 }

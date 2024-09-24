@@ -39,5 +39,10 @@
   "qr_helper": "Arahkan kamera Anda ke QR code,\nit akan dipindai secara otomatis.\nAtau Anda bisa memilih QR code dari perpustakaan.",
   "or": "atau",
   "pick_qr_code_from_library": "Pilih QR code dari perpustakaan",
-  "error_correction_level": "Tingkat Koreksi Kesalahan"
+  "error_correction_level": "Tingkat Koreksi Kesalahan",
+  "retry": "Coba Lagi",
+  "ec_low": "Rendah",
+  "ec_medium": "Sedang",
+  "ec_quartile": "Kuartil",
+  "ec_high": "Tinggi"
 }

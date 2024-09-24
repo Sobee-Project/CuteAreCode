@@ -39,5 +39,10 @@
   "qr_helper": "カメラをQRコードに向けてください。\n自動的にスキャンされます。\nまたは、ライブラリからQRコードを選択できます。",
   "or": "または",
   "pick_qr_code_from_library": "ライブラリからQRコードを選択",
-  "error_correction_level": "エラー訂正レベル"
+  "error_correction_level": "エラー訂正レベル",
+  "retry": "再試行",
+  "ec_low": "低い",
+  "ec_medium": "中程度",
+  "ec_quartile": "四分位",
+  "ec_high": "高い"
 }

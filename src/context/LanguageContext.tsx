@@ -1,5 +1,5 @@
 import {LANGUAGE_STORAGE_KEY} from '@/utils/constant';
-import STORAGE from '@/utils/storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import i18next from 'i18next';
 import {
   createContext,
@@ -46,25 +46,27 @@ export const LanguageProvider = ({children}: PropsWithChildren) => {
   );
 
   useEffect(() => {
-    const appHasLanguageDefined = STORAGE.contains(LANGUAGE_STORAGE_KEY);
+    (async function () {
+      const appLanguage = await AsyncStorage.getItem(LANGUAGE_STORAGE_KEY);
 
-    if (!appHasLanguageDefined) {
-      STORAGE.set(LANGUAGE_STORAGE_KEY, languageCode);
-      i18next.changeLanguage(languageCode);
-    } else {
-      const code = STORAGE.getString(LANGUAGE_STORAGE_KEY);
-      setSelectedLanguage(code);
-      i18next.changeLanguage(code);
-    }
+      if (!appLanguage) {
+        await AsyncStorage.setItem(LANGUAGE_STORAGE_KEY, languageCode);
+        i18next.changeLanguage(languageCode);
+      } else {
+        const code = appLanguage;
+        setSelectedLanguage(code);
+        i18next.changeLanguage(code);
+      }
+    })();
   }, []);
 
   const changeLanguage = useCallback(
-    (language: string) => {
+    async (language: string) => {
       if (selectedLanguage === language) {
         return;
       }
       setSelectedLanguage(language);
-      STORAGE.set(LANGUAGE_STORAGE_KEY, language);
+      await AsyncStorage.setItem(LANGUAGE_STORAGE_KEY, language);
       i18next.changeLanguage(language);
     },
     [selectedLanguage],

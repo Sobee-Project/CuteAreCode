@@ -39,5 +39,10 @@
   "qr_helper": "Skieruj kamerę na kod QR,\nzostanie on zeskanowany automatycznie.\nLub możesz wybrać kod QR z biblioteki.",
   "or": "lub",
   "pick_qr_code_from_library": "Wybierz kod QR z biblioteki",
-  "error_correction_level": "Poziom korekcji błędów"
+  "error_correction_level": "Poziom korekcji błędów",
+  "retry": "Ponów",
+  "ec_low": "Niski",
+  "ec_medium": "Średni",
+  "ec_quartile": "Kwartyl",
+  "ec_high": "Wysoki"
 }

@@ -39,5 +39,10 @@
   "qr_helper": "Take your camera to QR code,\nit will be scanned automatically. \nOr you can pick QR code from library.",
   "or": "or",
   "pick_qr_code_from_library": "Pick QR code from library",
-  "error_correction_level": "Error Correction Level"
+  "error_correction_level": "Error Correction Level",
+  "retry": "Retry",
+  "ec_low": "Low",
+  "ec_medium": "Medium",
+  "ec_quartile": "Quartile",
+  "ec_high": "High"
 }

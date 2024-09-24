@@ -1,6 +1,6 @@
 import {AppButton, AppText, AppTextInput} from '@/components/common';
 import {XIcon} from '@/components/icons';
-import {generateQRCode} from '@/native/QRCodeModule.android';
+import {generateQRCode, readQRCode} from '@/native/QRCodeModule.android';
 import {colors} from '@/theme/color';
 import {families} from '@/theme/font';
 import {QRGeneratorStackScreenProps} from '@/types/navigation';
@@ -51,19 +51,19 @@ const QrGenerator = ({
   const errorCorrectionLevels: RadioButtonProps[] = [
     {
       id: 'L',
-      label: 'L',
+      label: t('ec_low') + ' (L)',
     },
     {
       id: 'M',
-      label: 'M',
+      label: t('ec_medium') + ' (M)',
     },
     {
       id: 'Q',
-      label: 'Q',
+      label: t('ec_quartile') + ' (Q)',
     },
     {
       id: 'H',
-      label: 'H',
+      label: t('ec_high') + ' (H)',
     },
   ];
 
@@ -128,6 +128,10 @@ const QrGenerator = ({
         data.ecLevel,
         data.logo,
       );
+
+      // Check if QR code is valid and readable
+      await readQRCode(qrCode);
+
       navigation.navigate('QRGeneratorResult', {
         data: {
           ...data,
@@ -257,6 +261,7 @@ const QrGenerator = ({
             selectedId={qrCodeReq.ecLevel}
             containerStyle={{
               flexDirection: 'row',
+              flexWrap: 'wrap',
             }}
             labelStyle={{
               fontFamily: families.medium,

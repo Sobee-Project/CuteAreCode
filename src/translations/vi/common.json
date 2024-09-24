@@ -39,5 +39,10 @@
   "qr_helper": "Đưa camera của bạn đến mã QR,\nnó sẽ tự động quét. \nHoặc bạn có thể chọn mã QR từ thư viện.",
   "or": "hoặc",
   "pick_qr_code_from_library": "Chọn mã QR từ thư viện",
-  "error_correction_level": "Mức độ sửa lỗi"
+  "error_correction_level": "Mức độ sửa lỗi",
+  "retry": "Thử lại",
+  "ec_low": "Thấp",
+  "ec_medium": "Trung bình",
+  "ec_quartile": "Tứ phân vị",
+  "ec_high": "Cao"
 }

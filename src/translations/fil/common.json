@@ -39,5 +39,10 @@
   "qr_helper": "Itutok ang iyong kamera sa QR code,\nito ay awtomatikong mase-scan.\nO maaari mong piliin ang QR code mula sa aklatan.",
   "or": "o",
   "pick_qr_code_from_library": "Pumili ng QR code mula sa aklatan",
-  "error_correction_level": "Antas ng Koreksyon ng Error"
+  "error_correction_level": "Antas ng Koreksyon ng Error",
+  "retry": "Subukan muli",
+  "ec_low": "Mababa",
+  "ec_medium": "Katamtaman",
+  "ec_quartile": "Kwarto",
+  "ec_high": "Mataas"
 }

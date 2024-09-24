@@ -39,5 +39,10 @@
   "qr_helper": "Richt je camera op de QR-code,\ndit wordt automatisch gescand.\nOf je kunt de QR-code uit de bibliotheek kiezen.",
   "or": "of",
   "pick_qr_code_from_library": "Kies QR-code uit de bibliotheek",
-  "error_correction_level": "Foutcorrectieniveau"
+  "error_correction_level": "Foutcorrectieniveau",
+  "retry": "Opnieuw proberen",
+  "ec_low": "Laag",
+  "ec_medium": "Gemiddeld",
+  "ec_quartile": "Kwartiel",
+  "ec_high": "Hoog"
 }
